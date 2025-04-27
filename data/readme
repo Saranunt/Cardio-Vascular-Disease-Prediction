@@ -1,0 +1,29 @@
+These are generally preprocessed data for Binary and Multi-class cardio disease detection.
+
+- The Null values have been handled.
+- The data are NOT Standardizing, Normalizing, or Scaling
+
+Binaryclass Data
+
+- 1918 entries with labeled target
+
+Multiclass Data
+
+- 587 labeled data from europe hospital
+- 777 unlabeled data from india hospital
+
+There is a code for One-Hot-Encoding in the folder.
+
+Feature Explanation
+age --> Age of the patient (28-77 in years).
+gender --> Gender of the patient: typically 1 = Male, 0 = Female.
+chestpain --> Type of chest pain experienced (encoded):• 1 = Typical Angina• 2 = Atypical Angina• 3 = Non-Anginal Pain• 4 = Asymptomatic
+restingBP --> Resting Blood Pressure (in mm Hg) when the patient is seated and relaxed.
+serumcholestrol --> Serum cholesterol level (in mg/dl).
+fastingbloodsugar --> Whether the patient's fasting blood sugar is > 120 mg/dl:• 1 = Yes• 0 = No
+restingrelectro --> Results of resting electrocardiographic test (ECG) (encoded):• 0 = Normal• 1 = ST-T wave abnormality• 2 = Possible left ventricular hypertrophy
+maxheartrate --> Maximum heart rate achieved during exercise test.
+exerciseangia --> Whether the patient experienced exercise-induced angina:• 1 = Yes• 0 = No
+oldpeak --> ST depression induced by exercise relative to rest. (Numeric value showing how much the ST segment dropped below baseline after exercise.)
+slope --> Slope of the peak exercise ST segment (encoded):• 1 = Upsloping• 2 = Flat• 3 = Downsloping
+target --> Diagnosis of heart disease:• 0 = No heart disease• 1 = Presence of heart disease
